@@ -1,0 +1,13 @@
+Package: temporalnetworks
+Type: Package
+Title: Functions for estimating, analyzing, and visualizing different types of temporal networks.
+Version: 0.1.0
+Authors@R: person("Sercan", "Kahveci", email = "sercan+kahveci@sbg.ac.at", role = c("aut", "cre"))
+Description: Functions for estimating, analyzing, and visualizing different types of temporal networks.
+Imports: dplyr, lmerTest, methods, doParallel, parallel, foreach, iterators, graphlayouts, igraph, qgraph, Matrix, Rcpp, glmnet, arm, deldir
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+LinkingTo: Rcpp
+ByteCompile: true
+RoxygenNote: 7.3.2
